@@ -15,7 +15,7 @@ function App() {
 
   useEffect(() => {
     console.log("componentDidUpdate");
-  }, [])
+  }, [count])
 
   console.log("render 1");
   
